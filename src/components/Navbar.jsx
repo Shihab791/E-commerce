@@ -22,7 +22,6 @@ const NavItem = ({ to, children }) => {
 
 export default function Navbar() {
   return (
-    // ✅ no blur/no overlay
     <header className="absolute top-0 left-0 z-50 w-full bg-transparent">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <div className="flex h-[92px] items-center justify-between">
